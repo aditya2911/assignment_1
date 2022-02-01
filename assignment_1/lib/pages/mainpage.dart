@@ -125,15 +125,11 @@ class _mainPageState extends State<mainPage> {
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
-                                Expanded(
-                                    child: Buttons(
-                                        'Get a hint', Colors.blueAccent)),
+                                Buttons('Get a hint', Colors.blueAccent),
                                 SizedBox(
                                   width: MediaQuery.of(context).size.width / 15,
                                 ),
-                                Expanded(
-                                    child: Buttons(
-                                        'Ask a Friend', Colors.blueAccent))
+                                Buttons('Ask a Friend', Colors.blueAccent)
                               ],
                             ),
                           ),
